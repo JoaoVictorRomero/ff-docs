@@ -2,6 +2,18 @@ site_name: Food Finder
 site_author: Joao Romero
 site_description: Documentação Food Finder
 
+repo_url: https://github.com/JoaoVictorRomero/ff-docs
+# repo_name: foodfinder/docs
+edit_uri: edit/main/docs/
+# theme:
+# theme:
+#   features:
+#     - content.action.edit
+# theme:
+#   icon:
+#     edit: material/pencil 
+#     view: material/eye
+
 theme:
   name: material
   language: pt-BR
@@ -13,6 +25,11 @@ theme:
     - navigation.sections
     - content.tooltips
     - content.tabs.link
+    - content.code.copy
+    - content.action.edit
+
+  icon:
+    repo: fontawesome/brands/github
 
 
 markdown_extensions:
@@ -51,5 +68,8 @@ nav:
 
   - Backend:
     - SLA: 'a.md'
+
+  - Outros:
+    - Contribuição Docs: 'contribuicao-docs.md'
 
 
