@@ -65,6 +65,7 @@ nav:
 
   - Frontend:
     - HomePage: 'homepage.md'
+    - SearchPage: 'searchpage.md'
 
   - Backend:
     - SLA: 'a.md'
