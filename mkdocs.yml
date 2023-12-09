@@ -70,7 +70,8 @@ nav:
     - Cadastro page: 'cadastro.md'
 
   - Backend:
-    - SLA: 'a.md'
+    - Servidor Flask: 'server.md'
+    - Considerações Avançadas: 'seguranca.md'
 
   - Outros:
     - Contribuição Docs: 'contribuicao-docs.md'
