@@ -21,6 +21,7 @@ theme:
     scheme: slate
     primary: light blue
 
+
   features:
     - navigation.sections
     - content.tooltips
@@ -30,6 +31,19 @@ theme:
 
   icon:
     repo: fontawesome/brands/github
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: material/passport-alert
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
 
 
 markdown_extensions:
@@ -61,7 +75,9 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Sobre: "index.md"
+  - Instalação: "index.md"
+  - Contribuição Docs: 'contribuicao-docs.md'
+  - Sobre: 'sobre.md'
 
   - Frontend:
     - HomePage: 'homepage.md'
@@ -73,7 +89,6 @@ nav:
     - Servidor Flask: 'server.md'
     - Considerações Avançadas: 'seguranca.md'
 
-  - Outros:
-    - Contribuição Docs: 'contribuicao-docs.md'
+  
 
 
